@@ -1,2 +1,4 @@
 # Stress-Detection-using-Physiological-Sensor-data
 Stress Detection using Physiological Sensor data : From Wrist Sensors to Cloud Computing, Machine Learning and User Feedback Integration
+
+Developed a wrist sensor prototype that captures physiological data such as 3-axis acceleration, Electrodermal activity, and temperature. The collected sensor data is stored in the AWS cloud ecosystem, using which machine learning models - random forest and logistic regression - classify stress levels into stress, non-stress, and amusement. Additionally, a web application built using HTML, CSS, and Javascript enables real-time visualization of collected data through graphs, providing insights into classifications while allowing user feedback for continual system and model improvement. The system aids in understanding, identifying, and addressing stress levels, thereby fostering healthier lifestyles and proactive mental health care.
