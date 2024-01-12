@@ -10,7 +10,7 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-
+// ADXL345 sensor - accelerometer
 Adafruit_ADXL345_Unified accel = Adafruit_ADXL345_Unified(12345);
 
 // DS18B20 Temperature Sensor
@@ -23,7 +23,9 @@ const int gsrPin = A0;  // Analog pin to read GSR data
 
 int p_id = 0;
 
-//add your topic here
+//add your topics here
+#define AWS_IOT_PUBLISH_TOPIC   "your/publish/topic"
+#define AWS_IOT_SUBSCRIBE_TOPIC "your/subscribe/topic"
 
 WiFiClientSecure net;
 BearSSL::X509List cert(cacert);
